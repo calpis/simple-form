@@ -21,6 +21,7 @@ const App = () => {
 
   return (
     <Container>
+      {}
       <FormPage submitted={submitted} handleSendEmail={handleSendEmail} />
       <LoadingPage show={showLoading} onHide={() => setShowLoading(false)} />
       <NotificationPage
